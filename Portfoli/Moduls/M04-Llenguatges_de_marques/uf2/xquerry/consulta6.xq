@@ -1,0 +1,1 @@
+replace node doc("parc.xml")/parc/dates/dataTancament/text() with "10/02/2021"
