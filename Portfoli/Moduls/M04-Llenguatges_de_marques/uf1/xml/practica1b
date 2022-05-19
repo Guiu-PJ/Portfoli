@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<parc>
+  <nom>CoperAventura</nom>
+  <Adreça>Passeig de la sort, 1</Adreça>
+  <Ciutat>Can Puces</Ciutat>
+  <País>Espanya</País>
+  <Lloc_web>http://www.coperaventura.com</Lloc_web>
+<!--Aqui dins aniran tots els horaris del parc -->
+  <Horaris>
+  <!--Dins de l'etiqueta Horari escric "mes="" per poder diferenciar de quin mes es cada horari-->
+  <Horari mes="Juliol">
+    10:00 a 22:00
+  </Horari>
+  <!--Dins de l'etiqueta Horari escric "mes="" per poder diferenciar de quin mes es cada horari-->
+  <Horari mes="Agost">
+    10:00 a 22:00
+  </Horari>
+  <!--Dins de l'etiqueta Horari escric "mes="" per poder diferenciar de quin mes es cada horari-->
+  <Horari mes="Setembre">
+    <!--Dins de l'etiqueta Dies e ficat "dies=""" perque aixi es diferencia l'horari dels diferents dies -->
+    <Dies dies="1 al 13 y Dissabtes del 14 al 30">10:00 a 22:00</Dies>
+    <Dies dies="14 al 30 exepte Dissabtes">10:00 a 20:00</Dies>
+  </Horari>
+  <!--Dins de l'etiqueta Horari escric "mes="" per poder diferenciar de quin mes es cada horari-->
+  <Horari mes="Octubre">
+    <!--Dins de l'etiqueta Dies e ficat "dies=""" perque aixi es diferencia l'horari dels diferents dies -->
+    <Dies dies="cada dia exepte Dissabtes i el Diumenge 11">10:00 a 20:00</Dies>
+    <Dies dies="Dissabtes i el Diumenge 11">10:00 a 22:00</Dies>
+  </Horari>
+  <!--Dins de l'etiqueta Horari escric "mes="" per poder diferenciar de quin mes es cada horari-->
+  <Horari mes="Novembre">
+    <!--Dins de l'etiqueta Dies e ficat "dies=""" perque aixi es diferencia l'horari dels diferents dies -->
+    <Dies dies="Dissabte 7 i 14">10:00 a 22:00</Dies>
+    <Dies dies="Dissabtes i Diumenges">10:00 a 18:00</Dies>
+  </Horari>
+  <!--Dins de l'etiqueta Horari escric "mes="" per poder diferenciar de quin mes es cada horari-->
+  <Horari mes="Desembre">
+    <!--Dins de l'etiqueta Dies e ficat "dies=""" perque aixi es diferencia l'horari dels diferents dies -->
+   <Dies dies="Dissabtes, Diumenges, Dilluns 7, Martes 8, del 21 al 25 y del 18 al 31">10:00 a 18:00</Dies>
+  </Horari>
+  <!--Dins de l'etiqueta Horari escric "mes="" per poder diferenciar de quin mes es cada horari-->
+  <Horari mes="Gener">
+    <!--Dins de l'etiqueta Dies e ficat "dies=""" perque aixi es diferencia l'horari dels diferents dies -->
+    <Dies dies=" Del 1 al 10">10:00 a 18:00</Dies>
+  </Horari>
+  </Horaris>
+<!--Aqui aniran les diferents atraccions del parc i les seves caracteristiques-->
+  <atraccions>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Pati_Mission">
+    <Zona>ESO</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Video>Si</Video>
+    <Alçada_Minima_Acompanyat>1,10</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,20m</Alçada_Minima>
+    <Intensitat>Infantil</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="L'aula misteriosa">
+    <Zona>ESO</Zona>
+    <Intensitat>Infantil</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Magic entrepà ">
+    <Zona>ESO</Zona>
+    <Alçada_Minima_Acompanyat>1,30m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Infantil</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Profe-Profe">
+    <Zona>ESO</Zona>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+   <Alçada_Minima_Acompanyat>1-m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,30m</Alçada_Minima>
+    <Intensitat>Infantil</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="El salt a la pissarra ">
+    <Zona>ESO</Zona>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Alçada_Minima_Acompanyat>0,95m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,30m</Alçada_Minima>
+    <Intensitat>Infantil</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Furius Selectivity">
+    <Zona>Batxillerat</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Video>Si</Video>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Alçada_Maxima>1,95m</Alçada_Maxima>
+    <Intensitat>Forta</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Examen Splash">
+    <Zona>Batxillerat</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Alçada_Minima_Acompanyat>1,30m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Moderada</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Juny Wave">
+    <Zona>Batxillerat</Zona>
+    <Alçada_Minima_Acompanyat>1,30m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Moderada</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="El tren de sortida">
+    <Zona>Batxillerat</Zona>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Intensitat>Suau</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Pràctiques River Flume">
+    <Zona>GM</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Alçada_Minima_Acompanyat>1,30m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Moderada</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Dies Festius Rapids">
+    <Zona>GM</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Fotografia>SI</Fotografia>
+    <Alçada_Minima_Acompanyat>1,20m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,30m</Alçada_Minima>
+    <Intensitat>Moderada</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Crazy Crèdit Síntesi">
+    <Zona>GM</Zona>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Alçada_Minima_Acompanyat>1,20m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,30m</Alçada_Minima>
+    <Intensitat>Moderada</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Les canoes del traspas">
+    <Zona>GM</Zona>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Intensitat>Suau</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Dual Khan">
+    <Zona>GS</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Video>Si</Video>
+    <Alçada_Maxima>1,95m</Alçada_Maxima>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Forta</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Dhambhala">
+    <Zona>GS</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Video>Si</Video>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Forta</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Projecte Climbing">
+    <Zona>GS</Zona>
+    <Alçada_Maxima>1,50m</Alçada_Maxima>
+    <Alçada_Minima_Acompanyat>1,20</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,30m</Alçada_Minima>
+    <Intensitat>MOderada</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Coperkor">
+    <Zona>GS</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Alçada_Minima_Acompanyat>1,20m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,30m</Alçada_Minima>
+    <Intensitat>Suau</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="El temple de les notes">
+    <Zona>Profes</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Alçada_Minima_Acompanyat>1m</Alçada_Minima_Acompanyat>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Moderada</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="El secret dels alumnes">
+    <Zona>Profes</Zona>
+    <Intensitat>Suau</Intensitat>
+  </Atraccio>
+  <!-- Escric nom="" dins de l'etiqueta Atraccio pero poder diferenciar les diferents atraccions que hi han-->
+  <Atraccio nom="Hurakan Truancy">
+    <Zona>Profes</Zona>
+    <Acces_Discapa>SI</Acces_Discapa>
+    <Fotografia>SI</Fotografia>
+    <Alçada_Maxima>1,95m</Alçada_Maxima>
+    <Alçada_Minima>1,40m</Alçada_Minima>
+    <Intensitat>Forta</Intensitat>
+  </Atraccio>
+  </atraccions>
+  <!--Aqui aniran tots el espectacles amb les seves diferencies-->
+  <Espectacles>
+  <!-- Escric nom="" dins de l'etiqueta Espectacle pero poder diferenciar els diferents espectacles que hi han-->
+  <Espectacle nom="Aloha alumnes">
+    <Zona>ESO</Zona>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari dies="Cada dia">11:30, 14:00, 16:00, 17:00</Horari>
+    <Tipus>Aventura</Tipus>
+  </Espectacle>
+  <!-- Escric nom="" dins de l'etiqueta Espectacle pero poder diferenciar els diferents espectacles que hi han-->
+  <Espectacle nom="Em sento al paradís">
+    <Zona>ESO</Zona>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari dies="De Dilluns a divendres">13:00, 15:00</Horari>
+    <Horari dies="Dissabtes i diumenges">12:00, 13:30, 15:30</Horari>
+    <Tipus>Didàctic</Tipus>
+  </Espectacle>
+  <!-- Escric nom="" dins de l'etiqueta Espectacle pero poder diferenciar els diferents espectacles que hi han-->
+  <Espectacle nom="CCC©Experience">
+    <Zona>GM</Zona>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari dies="Dissabtes">11:30 a 13:30, 15:00 a 18:30</Horari>
+    <Horari dies="Diumenges">11:00, 13:00, 14:30 a 17:30</Horari>
+    <Tipus>Passatge del terror</Tipus>
+  </Espectacle>
+  <!-- Escric nom="" dins de l'etiqueta Espectacle pero poder diferenciar els diferents espectacles que hi han-->
+  <Espectacle nom="Around the Coper">
+    <Zona>GS</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Acces_Discapa>Si</Acces_Discapa>
+    <Horari dies="Dilluns, Dimecres, Dijous, Divendres, Diumenges">14:00, 16:00</Horari>
+    <Horari dies="Dissabtes">16:00, 18:00</Horari>
+    <Tipus>Musical</Tipus>
+  </Espectacle>
+  <!-- Escric nom="" dins de l'etiqueta Espectacle pero poder diferenciar els diferents espectacles que hi han-->
+  <Espectacle nom="CoperParade">
+    <Zona>Profes</Zona>
+    <Horari dies="Dissabtes, Diumenges">20:00 a 22:00</Horari>
+    <Tipus>Desfilada</Tipus>
+  </Espectacle>
+  <!-- Escric nom="" dins de l'etiqueta Espectacle pero poder diferenciar els diferents espectacles que hi han-->
+  <Espectacle nom="Apocalipsis COVID">
+    <Zona>Profes</Zona>
+    <PassPreferent>Si</PassPreferent>
+    <Horari dies="Dissabtes">12:30 a 14:30, 16:00 a 18:30</Horari>
+    <Horari dies="Diumenges">11:30 a 13:30, 15:00 a 17:00</Horari>
+    <Tipus>Passatge del terror</Tipus>
+  </Espectacle>
+  </Espectacles>
+  <!-- Aqui hi han tots els restaurants que estan repartits per el parc-->
+  <Restaurants>
+  <!-- Escric nom="" dins de l'etiqueta Restaurant pero poder diferenciar els diferents restaurants que hi han-->
+  <Restaurant nom="La cuina de l'ESO">
+  <zona>ESO</zona>
+    <Servei>Taula i Autoservei</Servei>
+    <Menú_especial>Infantil</Menú_especial>
+  </Restaurant>
+  <!-- Escric nom="" dins de l'etiqueta Restaurant pero poder diferenciar els diferents restaurants que hi han-->
+   <Restaurant nom="Aiguaesfera Classes i Aigua">
+  <zona>Batxillerat</zona>
+    <Servei>Taula</Servei>
+    <Menú_especial>Infantil</Menú_especial>
+  </Restaurant>
+  <!-- Escric nom="" dins de l'etiqueta Restaurant pero poder diferenciar els diferents restaurants que hi han-->
+   <Restaurant nom="Café de primera hora">
+  <zona>Batxillerat</zona>
+    <Servei>Autoservei</Servei>
+  </Restaurant>
+  <!-- Escric nom="" dins de l'etiqueta Restaurant pero poder diferenciar els diferents restaurants que hi han-->
+   <Restaurant nom="The Iron student">
+  <zona>GS</zona>
+    <Servei>Taula</Servei>
+    <Menú_especial>Celíatic i Infantil</Menú_especial>
+  </Restaurant>
+  <!-- Escric nom="" dins de l'etiqueta Restaurant pero poder diferenciar els diferents restaurants que hi han-->
+   <Restaurant nom="The new snack house">
+  <zona>GS</zona>
+    <Servei>Autoservei</Servei>
+    <Menú_especial>Celíac</Menú_especial>
+  </Restaurant>
+  <!-- Escric nom="" dins de l'etiqueta Restaurant pero poder diferenciar els diferents restaurants que hi han-->
+   <Restaurant nom="Cantina del Coper">
+  <zona>Profes</zona>
+    <Servei>Taula</Servei>
+    <Menú_especial>Celíac i Infantil</Menú_especial>
+  </Restaurant>
+  <!-- Escric nom="" dins de l'etiqueta Restaurant pero poder diferenciar els diferents restaurants que hi han-->
+   <Restaurant nom="Un entrepà express">
+  <zona>Profes</zona>
+    <Servei>Autoservei</Servei>
+    <Menú_especial>Celíac</Menú_especial>
+  </Restaurant>
+  </Restaurants>
+    <!-- Aqui hi han totes les botigues que hi han per el parc-->
+  <Botigues>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="ESOTenda">
+    <Zona>ESO</Zona>
+    <Productes>Souvenirs</Productes>
+    <Servei_de_recollida>Si</Servei_de_recollida>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Profe-Profe">
+    <Zona>ESO</Zona>
+    <Productes>Fotografies</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Pati Mission">
+    <Zona>ESO</Zona>
+    <Productes>Souvenirs</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Furius Selectivity">
+    <Zona>Batxillerat</Zona>
+    <Productes>Souvenirs</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Records CoperAventura">
+    <Zona>Batxillerat</Zona>
+    <Productes>Souvenirs</Productes>
+    <Servei_de_recollida>Si</Servei_de_recollida>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Dolços del mes">
+    <Zona>Batxillerat</Zona>
+    <Productes>Llaminadures</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Pràctiques River Flume">
+    <Zona>GM</Zona>
+    <Productes>Fotografies</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Dies Festius Rapids">
+    <Zona>GM</Zona>
+    <Productes>Fotografies</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="GM Store">
+    <Zona>GM</Zona>
+    <Productes>Souvenirs</Productes>
+    <Servei_de_recollida>Si</Servei_de_recollida>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Dies Festius Rapids Shop">
+    <Zona>GM</Zona>
+    <Productes>Souvenirs i llaminadures</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Dual Khan">
+    <Zona>GS</Zona>
+    <Productes>Fotografies</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Dhambhala">
+    <Zona>GS</Zona>
+    <Productes>Fotografies</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="GS Palace">
+    <Zona>GS</Zona>
+    <Productes>Souvenirs</Productes>
+    <Servei_de_recollida>Si</Servei_de_recollida>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Fotos Hurkan Truancy">
+    <Zona>Profes</Zona>
+    <Productes>Fotografies</Productes>
+  </Botiga>
+  <!-- Escric nom="" dins de l'etiqueta Botiga pero poder diferenciar les diferents botigues que hi han-->
+  <Botiga nom="Hurakan Truancy Shop">
+    <Zona>Profes</Zona>
+    <Productes>Souvenirs</Productes>
+    <Servei_de_recollida>Si</Servei_de_recollida>
+  </Botiga>
+  </Botigues>
+</parc>
